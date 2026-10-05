@@ -6,7 +6,7 @@ interface ImportMetaEnv {
   readonly VITE_RPC_URL: string;
   readonly VITE_WALLET_CONNECT_PROJECT_ID: string;
   readonly VITE_CONTRACT_ADDRESS: string;
-  // Add every VITE_* variable you use in your code here.
+  readonly VITE_NETWORK_NAME: string;
 }
 
 interface ImportMeta {
